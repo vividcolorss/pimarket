@@ -8,6 +8,6 @@ Not ARM, Gentoo, etc: Not supported, never will be.
 To install, use this command:
 
 ```bash
-wget -qO- https://raw.githubusercontent.com/damiens0/pimarket/master/install | bash
+wget -qO- https://raw.githubusercontent.com/damiens0/pimarket/main/install | bash
 ```
 
