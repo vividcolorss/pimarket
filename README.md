@@ -14,3 +14,5 @@ To install, use this command:
 wget -qO- https://raw.githubusercontent.com/damiens0/pimarket/main/install | bash
 ```
 
+## Releases
+1.0.0 Beta - Latest
