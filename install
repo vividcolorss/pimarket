@@ -4,5 +4,5 @@ cd ~
 git clone https://github.com/damiens0/pimarket.git
 cd pimarket
 sudo cp pimarket /usr/bin/pimarket
-sudo chown ${usr} /usr/bin/pimarket
 echo PiMarket is ready. use it by running "pimarket".
+python editperms.py
