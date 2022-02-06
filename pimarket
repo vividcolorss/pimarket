@@ -14,6 +14,7 @@ pimarket --install <app name> - Install An App.
 pimarket --help - Open this menu.
 pimarket --ls - List all apps.
 """)
+  exit()
 if sys.argv[1] == "--install":
   try:
     os.system("cd ~/pimarket/apps/{0} && bash ./install.sh".format(sys.argv[2]))
