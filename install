@@ -1,6 +1,6 @@
 echo Installing PiMarket....
 cd ~
-git clone https://github.com/damiens0/pimarket.git
+git clone https://github.com/MakePie/pimarket.git
 cd pimarket
 sudo cp pimarket /usr/bin/pimarket
 echo almost done...
