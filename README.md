@@ -16,3 +16,6 @@ wget -qO- https://raw.githubusercontent.com/damiens0/pimarket/main/install | bas
 
 ## Releases
 1.0.0 Beta - Latest
+
+## Licensing
+PiMarket is is licensed under GPLv3. view the LICENSE file for more info.
