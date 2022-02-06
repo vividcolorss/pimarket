@@ -1,0 +1,5 @@
+echo Installing PiMarket....
+sudo pacman -S python3 python-pip git tk
+git clone https://github.com/damiens0/pimarket.git
+cd pimarket
+sudo cp main.py /usr/bin/
