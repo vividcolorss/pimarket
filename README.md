@@ -11,7 +11,7 @@ Not ARM, Gentoo, etc: Not supported.
 To install, use this command:
 
 ```bash
-wget -qO- https://raw.githubusercontent.com/damiens0/pimarket/main/install | bash
+wget -qO- https://raw.githubusercontent.com/MakePie/pimarket/main/install | bash
 ```
 
 ## Releases
