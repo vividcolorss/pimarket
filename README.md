@@ -3,7 +3,7 @@ App Store For The Raspberry Pi.
 ## Compatibility List
 Debian-based: supported.
 
-Arch-based: supported.
+Arch-based: Not supported.
 
 Not ARM, Gentoo, etc: Not supported.
 
