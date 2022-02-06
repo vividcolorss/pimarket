@@ -1,11 +1,11 @@
 # PiMarket
-App Store For The Raspberry Pi Compatible With Arch Linux ARM and Manjaro ARM.
+App Store For The Raspberry Pi.
 ## Compatibility List
-Debian-based: Not __yet__ supported.
+Debian-based: supported.
 
-Arch-based: __FULLY__ supported.
+Arch-based: supported.
 
-Not ARM, Gentoo, etc: Not supported, never will be.
+Not ARM, Gentoo, etc: Not supported.
 
 ## Installing
 To install, use this command:
