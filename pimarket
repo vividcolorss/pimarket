@@ -1,0 +1,23 @@
+#!/usr/bin/python3
+
+import sys
+try:
+  if sys.argv[1] == "--help":
+    print("""Help:
+pimarket --install <app name> - Install An App.
+pimarket --help - Open this menu.
+pimarket --ls - List all apps.
+""")
+except:
+  print("""Help:
+pimarket --install <app name> - Install An App.
+pimarket --help - Open this menu.
+pimarket --ls - List all apps.
+""")
+if sys.argv[1] == "--install":
+  try:
+    os.system("cd ~/pimarket/apps/{0} && bash ./install.sh".format(sys.argv[2]))
+  except:
+    print("ERROR: package not found")
+if sys.argv[1] == "--ls":
+  print(open("~/pimarket/apps.txt").read())
