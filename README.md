@@ -7,13 +7,19 @@ Arch-based: Not supported.
 
 Not ARM, Gentoo, etc: Not supported.
 
-## Installing
+## Installing and updating
 To install, use this command:
 
 ```bash
 wget -qO- https://raw.githubusercontent.com/MakePie/pimarket/main/install | bash
 ```
 
+To update, use these commands:
+```bash
+rm -rf /usr/bin/pimarket
+rm -rf ~/pimarket
+wget -qO- https://raw.githubusercontent.com/MakePie/pimarket/main/install | bash
+```
 ## Releases
 1.0.1 - Latest
 
