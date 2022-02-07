@@ -6,13 +6,11 @@ try:
     print("""Help:
 pimarket --install <app name> - Install An App.
 pimarket --help - Open this menu.
-pimarket --ls - List all apps.
 """)
 except:
   print("""Help:
 pimarket --install <app name> - Install An App.
 pimarket --help - Open this menu.
-pimarket --ls - List all apps.
 """)
   exit()
 if sys.argv[1] == "--install":
