@@ -18,3 +18,10 @@ if sys.argv[1] == "--install":
     os.system("bash ~/pimarket/apps/{0}/install".format(sys.argv[2]))
   except:
     print("ERROR: package not found")
+if sys.argv[1] == "--list":
+  try:
+    print("Grabbing latest list from github...")
+    os.system("wget https://raw.githubusercontent.com/MakePie/pimarket/main/apps.txt")
+    print(open("./apps.txt").read())
+    print("Clearing cache...")
+    os.system("rm -rf ./apps.txt")
