@@ -16,7 +16,7 @@ wget -qO- https://raw.githubusercontent.com/MakePie/pimarket/main/install | bash
 
 To update, use these commands:
 ```bash
-rm -rf /usr/bin/pimarket
+sudo rm -rf /usr/bin/pimarket
 rm -rf ~/pimarket
 wget -qO- https://raw.githubusercontent.com/MakePie/pimarket/main/install | bash
 ```
