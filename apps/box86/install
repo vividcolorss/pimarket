@@ -1,0 +1,10 @@
+#!/bin/bash
+
+if uname -m | grep -q 'aarch64' ;then
+echo "ERROR: Cannot install because architechure is aarch64. Install box64 instead."
+else
+echo installing box86...
+wget https://ryanfortner.github.io/box86-debs/box86-latest.deb
+sudo dpkg -i box86-latest.deb
+echo box86 installed.
+fi
