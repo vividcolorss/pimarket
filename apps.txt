@@ -4,3 +4,5 @@ APPS:
 
 box86
 box64
+blockpi
+steam
