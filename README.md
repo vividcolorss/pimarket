@@ -15,7 +15,8 @@ wget -qO- https://raw.githubusercontent.com/MakePie/pimarket/main/install | bash
 ```
 
 ## Releases
-1.0.0 Beta - Latest
+1.0.0 - Latest
+1.0.0 Beta
 
 ## Licensing
 PiMarket is is licensed under GPLv3. view the LICENSE file for more info.
