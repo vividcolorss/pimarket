@@ -4,6 +4,7 @@ if uname -m | grep -q 'aarch64' ;then
 echo installing box64...
 wget https://raw.githubusercontent.com/ryanfortner/box64-debs/master/debian/box64_0.1.7+20220205.552258ed-1_arm64.deb
 sudo dpkg -i box64_0.1.7+20220205.552258ed-1_arm64.deb
+rm box64_0.1.7+20220205.552258ed-1_arm64.deb
 echo box64 installed.
 else
 echo "ERROR: Cannot install because architechure is not aarch64. Install box86 instead."
