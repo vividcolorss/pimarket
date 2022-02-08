@@ -6,11 +6,13 @@ try:
     print("""Help:
 pimarket --install <app name> - Install An App.
 pimarket --help - Open this menu.
+pimarket --list - List all apps
 """)
 except:
   print("""Help:
 pimarket --install <app name> - Install An App.
 pimarket --help - Open this menu.
+pimarket --list - List all apps
 """)
   exit()
 if sys.argv[1] == "--install":
@@ -25,3 +27,5 @@ if sys.argv[1] == "--list":
     print(open("./apps.txt").read())
     print("Clearing cache...")
     os.system("rm -rf ./apps.txt")
+  except:
+    print("error grabbing latest list..")
