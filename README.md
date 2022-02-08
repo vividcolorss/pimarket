@@ -20,12 +20,5 @@ sudo rm -rf /usr/bin/pimarket
 rm -rf ~/pimarket
 wget -qO- https://raw.githubusercontent.com/MakePie/pimarket/main/install | bash
 ```
-## Releases
-1.0.1 - Latest
-
-1.0.0
-
-1.0.0 Beta
-
 ## Licensing
 PiMarket is is licensed under GPLv3. view the LICENSE file for more info.
