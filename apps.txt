@@ -2,6 +2,6 @@
 
 APPS:
 
-box86
-box64
-steam
+box86 - 32x
+box64 - 64x
+steam - 32x
