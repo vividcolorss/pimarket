@@ -6,5 +6,6 @@ else
 echo installing box86...
 wget https://ryanfortner.github.io/box86-debs/box86-latest.deb
 sudo dpkg -i box86-latest.deb
+rm box86-latest.deb
 echo box86 installed.
 fi
