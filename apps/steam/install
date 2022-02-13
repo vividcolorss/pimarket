@@ -13,8 +13,7 @@ if dpkg -l steamlink ;then
 fi
 #fix error: "trying to overwrite '/lib/udev/rules.d/60-steam-input.rules', which is also in package steamlink 1.0.7"
 sudo rm /lib/udev/rules.d/60-steam-input.rules
-"${DIRECTORY}/manage" install-if-not-installed Box86 || error "Box86 failed to install somehow!"
-
+box86 || echo Installing Box86 with PiMarket && pimarket --install box86
 echo "Downloading steam.deb"
 wget https://steamcdn-a.akamaihd.net/client/installer/steam.deb || error "Failed to download steam.deb!"
 "${DIRECTORY}/api" apt_lock_wait
