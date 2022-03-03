@@ -2,6 +2,7 @@
 
 APPS:
 
+piblox - 32x
 box86 - 32x
 box64 - 64x
 steam - 32x
