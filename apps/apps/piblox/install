@@ -1,0 +1,24 @@
+
+#!/bin/bash
+cd $HOME
+if uname -m | grep -q 'aarch64' ;then
+echo "ERROR: Cannot install because architechure is aarch64. PiBlox will not work."
+exit 0
+else
+cd $HOME && wget -qO- https://raw.githubusercontent.com/MakePie/PiBlox/main/install | bash
+fi
+if [ -f /usr/local/bin/twistver ] && [[ $(twistver) == "Twister OS version"* ]]; then
+echo "Detected TwisterOS! Modifying InstallStudio...."
+echo -e "#!/bin/bash\n
+#mkdir $HOME/wine\n
+echo PiBlox Studio Installer\n
+#cd $HOME/.piblox && wget https://www.dropbox.com/s/3pkparicmagolpf/wine.zip\n
+cd $HOME/.piblox && wget https://www.dropbox.com/s/b4stm4njsfls8qp/RobloxStudioLauncherBeta.exe\n
+#unzip $HOME/.piblox/wine.zip -d $HOME/wine\n
+#sudo cp $HOME/.piblox/box86 /usr/local/bin/box86\n
+#sudo mv $HOME/wine/wine /usr/local/bin/wine\n
+rm -rf $HOME/.wine/drive_c/Program\ Files/Roblox/*\n
+wine $HOME/.piblox/RobloxStudioLauncherBeta.exe\n
+echo Roblox Installed!!\n" > $HOME/.piblox/InstallStudio
+fi
+echo Installed!
